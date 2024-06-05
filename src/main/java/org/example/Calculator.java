@@ -18,8 +18,7 @@ public class Calculator {
     }
 
     public int plus (int int1, int int2) {
-        int resultPlus = int1+int2;
         operationCount++;
-        return resultPlus;
+        return int1+int2;
     }
 }
